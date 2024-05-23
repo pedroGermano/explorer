@@ -1,0 +1,30 @@
+body{
+  font-family: 'Opens Sans', sans-serif;
+  text-align: center;
+}
+
+#hero{
+  width: 37rem;
+  margin: auto;
+}
+
+h1{
+  font-family: 'Inter', sans-serif;
+  font-size: 3.0625rem;
+  line-height: 3.5rem;
+  font-weight: normal;
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+span, a{
+  color: #ff9900;
+}
+
+p{
+  color: #7d7987;
+  font-size: 0.875rem;
+  line-height: 1.75rem;
+}
