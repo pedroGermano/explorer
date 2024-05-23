@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body{
   font-family: 'Opens Sans', sans-serif;
   text-align: center;
@@ -5,7 +9,11 @@ body{
 
 #hero{
   width: 37rem;
-  margin: auto;
+  margin: 0 auto 4.5rem;
+}
+
+#hero img{
+  margin-bottom: 4.5rem;
 }
 
 h1{
@@ -13,6 +21,8 @@ h1{
   font-size: 3.0625rem;
   line-height: 3.5rem;
   font-weight: normal;
+  margin-bottom: 2rem;
+
 }
 
 h1 span {
@@ -23,8 +33,27 @@ span, a{
   color: #ff9900;
 }
 
-p{
+p, #footer{
   color: #7d7987;
   font-size: 0.875rem;
   line-height: 1.75rem;
+}
+
+
+
+#footer a + a{
+  margin-left: 1.75rem;
+}
+
+#line{
+  width: 35.5rem;
+  height: 0;
+  border: 1px solid #ECEFF2;
+  margin: 0 auto 8px;
+}
+
+#dots{
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
